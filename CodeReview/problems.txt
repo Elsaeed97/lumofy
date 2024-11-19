@@ -1,0 +1,15 @@
+    
+'''
+Problems:
+- Security Vulnerabilities:
+    1. there is no validation for the username, email and password fields.
+    2. the password needs to be hashed in a better way than make password that create user used.
+    3. there is no csrf token check.
+- Performance Issues:
+    1. there is no check for the username or email already exists or not, which could result in unnecessary database queries or unique constraint violations.
+- Maintainability Issues:
+    1. there is no error handling.
+    2. there is no proper response for the error.
+    3. there is no proper response for the success and create user. 
+    4. there is no form or serializer to handle the data.
+'''

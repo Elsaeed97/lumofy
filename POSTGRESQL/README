@@ -1,0 +1,18 @@
+# Section 1: General Coding & Problem Solving
+
+Design a database schema for a Learning Management System(LMS).
+
+## Part 1: SQL and Database Design
+
+### Database Schema
+
+The LMS database schema includes the following entities:
+- Courses
+- Students
+- Teachers
+- Lessons
+- Enrollments
+- LessonProgress
+
+#### Queries inside the queries.sql file 
+#### The Database file is lms_db.sql

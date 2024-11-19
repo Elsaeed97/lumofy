@@ -1,0 +1,8 @@
+''' 
+Scenario: You`ve been given a Django view that handles user registration. The
+code is functional but lacks optimization and has security vulnerabilities.
+o Task: Review the following Django code and provide feedback:
+▪ Highlight at least 3 potential improvements in terms of performance,
+security, and maintainability.
+▪ Refactor the code to address the issues you found.
+'''

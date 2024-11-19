@@ -1,0 +1,52 @@
+# File Upload System
+
+A Django-based file management system that allows users to upload, list, and retrieve files through REST API endpoints.
+
+## Features
+
+- File upload functionality
+- File listing with pagination
+- Single file retrieval by ID
+- File size validation
+- File type filtering (PDF, Images, etc.)
+
+## Quick Start
+
+### 1. Setup Environment
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install requirements
+pip install -r requirements.txt
+
+### 2. Configure Database
+##### Apply migrations
+python manage.py makemigrations
+# or 
+make migrations
+python manage.py migrate
+# or 
+make migrate
+
+### 3. Run Development Server
+python manage.py runserver
+# or
+make run
+
+### 4. Run Tests
+python manage.py test
+# or
+make test
+
+
+### API DOCS 
+Swagger UI: http://127.0.0.1:8000/swagger/
+ReDoc: http://127.0.0.1:8000/redoc/
+

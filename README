@@ -1,0 +1,45 @@
+# Lumofy - Technical Assessment
+
+This repository contains the implementation of Lumofy technical assessment. I'll be Using Django, Django REST Framework, PostgreSQL, and React integration.
+
+## Project Overview
+
+The LMS supports core functionalities including course management, student enrollment, lesson tracking, and file management through a RESTful API architecture.
+
+### Tech Stack for Lumofy
+
+- Backend: Django + Django REST Framework
+- Database: PostgreSQL
+- Frontend: React (Optional component)
+- Containerization: Kubernetes
+
+## Project Structure
+
+The assessment is divided into four main sections:
+
+1. **Database & General Coding**
+   - Database schema design for LMS
+   - SQL query implementations
+   - File upload system
+
+2. **API Design & Implementation**
+   - Course management endpoints
+   - Lesson management
+   - Progress tracking system
+
+3. **Code Review & Engineering**
+   - Security assessment
+   - Performance optimization
+   - Code refactoring
+
+4. **React Integration** (Optional)
+   - Course listing component
+   - API integration
+   - Pagination implementation
+
+## Setup Instructions
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Elsaeed97/lumofy.git
+cd lumofy
