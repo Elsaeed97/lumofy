@@ -16,3 +16,4 @@ The LMS database schema includes the following entities:
 
 #### Queries inside the queries.sql file 
 #### The Database file is lms_db.sql
+#### Er Diagram file: lms_db_diagram.png and lms_db_diagram.drawio
